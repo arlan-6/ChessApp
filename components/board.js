@@ -24,13 +24,8 @@ const Board = () => {
     const hasPiece = piece !== null;
     return (
       <Square
-        path={
-          hasPiece
-            ? {
-                url: "https://img.freepik.com/free-vector/gradients-weather-icons-for-apps_79603-1767.jpg?size=626&ext=jpg&ga=GA1.1.1546980028.1703548800&semt=ais",
-              }
-            : null
-        }
+        imagePath={hasPiece ? piece.imagePath : null}
+        // imagePath={hasPiece ? require(`../assets/img/white-king.png`) : null}  doesn't work
         piece={piece}
         hasPiece={hasPiece}
         isFocused={

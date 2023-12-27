@@ -2,6 +2,7 @@ import { StatusBar } from "expo-status-bar";
 import { SafeAreaView, ScrollView, StyleSheet, Text, View } from "react-native";
 import Board from "./components/board";
 import FocusedButtonsContainer from "./components/test";
+import MyImageComponent from "./components/test";
 
 export default function App() {
   return (
@@ -9,7 +10,7 @@ export default function App() {
       <StatusBar />
       <ScrollView>
         <Board />
-        <FocusedButtonsContainer />
+        <MyImageComponent />
       </ScrollView>
     </SafeAreaView>
   );
