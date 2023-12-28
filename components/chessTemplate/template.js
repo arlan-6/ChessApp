@@ -84,7 +84,24 @@ const main = [
     },
   ],
   [null, null, null, null, null, null, null, null],
-  [null, null, null, null, null, null, null, null],
+  [
+    null,
+    null,
+    null,
+    {
+      color: "white",
+      piece: "rook",
+      imagePath: require("../../assets/img/white-rook.png"),
+    },
+    {
+      color: "white",
+      piece: "bishop",
+      imagePath: require("../../assets/img/white-bishop.png"),
+    },
+    null,
+    null,
+    null,
+  ],
   [null, null, null, null, null, null, null, null],
   [null, null, null, null, null, null, null, null],
   [
